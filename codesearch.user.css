@@ -1,0 +1,136 @@
+/* ==UserStyle==
+@name           Chromium Code Search Catppuccin (Frappe)
+@namespace      github.com/r58Playz
+@version        1.1.0
+@description    Catppuccin Frappe for Chromium Code Search.
+@author         r58Playz
+==/UserStyle== */
+
+@-moz-document domain("source.chromium.org") {
+    .dark-mode {
+        --app-bar: #292c3c;
+        --background: #303446;
+        --callgraph-aggregation-background: #00f;
+        --callgraph-aggregation-header: #00f;
+        --callgraph-node: #00f;
+        --card: #292c3c;
+        --card-transparent-45: #292c3c;
+        --chip-unselected-bg: #292c3c;
+        --citc-header: #f0f;
+        --code-diff-added-full-line: color-mix(in srgb, #a6d189 15%, #303446);
+        --code-diff-added: color-mix(in srgb, #a6d189 30%, #303446);
+        --code-diff-removed-full-line: color-mix(in srgb, #e78284 15%, #303446);
+        --code-diff-removed: color-mix(in srgb, #e78284 30%, #303446);
+        --code-diff-untouched: color-mix(in srgb, #ef9f76 30%, #303446);
+        --code-gutter-highlight: #232634;
+        --code-merge-spacer: #303446;
+        --code-snippet: #303446;
+        --coverage-covered: #00f;
+        --coverage-uncovered: #00f;
+        --even-row: #303446;
+        --file-content-pager: #414559;
+        --find-match-highlight: #51576d;
+        --find-match-pager-highlight: #a6d189;
+        --find-match-selected-highlight: #626880;
+        --focus: #232634;
+        --folding-ellipses: #00f;
+        --history-chip: #f0f;
+        --hover-and-focus: #232634;
+        --hover: #232634;
+        --left-diff-view-selected: color-mix(in srgb, #a6d189 25%, #232634);
+        --loading: #303446;
+        --logpoint-form-shaded-background: #00f;
+        --odd-row: #292c3c;
+        --page-background: #303446;
+        --page-bg: #303446;
+        --page-bg-secondary: #292c3c;
+        --page-bg-transparent-50: #292c3c;
+        --panel-error: #303446;
+        --panel-header: #414559;
+        --primary-app-bar: #292c3c;
+        --right-diff-view-selected: color-mix(in srgb, #8caaee 25%, #232634);
+        --search-bar: #00f;
+        --search-bg: #292c3c;
+        --search-focus-bg: #292c3c;
+        --search-bar-scope-chip-border: #0f0;
+        --search-match-highlight: #51576d;
+        --search-match-pager-highlight: #626880;
+        --search-match-selected-highlight: #626880;
+        --selected: #232634;
+        --table-header: #292c3c;
+        --table-header-transparent-50: #232634;
+        --xref-highlight: rgba(229, 200, 144, 0.25);
+        --xref-highlight-bg: rgba(229, 200, 144, 0.25);
+        --important-xref-highlight: rgba(186, 187, 241, 0.25);
+        --important-xref-highlight-bg: rgba(186, 187, 241, 0.25);
+        --border: #232634;
+        --breadcrumb: #c6d0f5;
+        --breadcrumb-separator: #c6d0f5;
+        --button-disabled-text: #838ba7;
+        --code-metadata-alias: #ef9f76;
+        --code-metadata-default-fg: #c6d0f5;
+        --code-metadata-default-bg: #232634;
+        --code-metadata-object: #8caaee;
+        --code-metadata-procedure: #ca9ee6;
+        --code-metadata-sub-data: #0ff;
+        --column-guide: #0f0;
+        --dbg-active-marker-color: #0f0;
+        --dbg-active-selected-marker-color: #0f0;
+        --dbg-inactive-marker-color: #0f0;
+        --dbg-inactive-selected-marker-color: #0f0;
+        --emphasized-text: #c6d0f5;
+        --folding-indicator: #0f0;
+        --hairline: #232634;
+        --history-chip-fg: #292c3c;
+        --icon: #c6d0f5;
+        --information-box-warning: #0f0;
+        --low-contrast-copy-button: #c6d0f5;
+        --search-match-line-number: #c6d0f5;
+        --search-query-label: #00f;
+        --search-query-operator: #00f;
+        --search-query-quoted: #00f;
+        --search-query-warning: #00f;
+        --text-default: #c6d0f5;
+        --text-disabled: #838ba7;
+        --text-secondary: #b5bfe2;
+        --card-border: #949cbb;
+        --code-added: #00f;
+        --code-deleted: #00f;
+        --code-modified: #00f;
+        --emphasized-border: #232634;
+        --history-chip-border: #f0f;
+        --panel-divider-hover: #838ba7;
+        --panel-divider: #737994;
+        --cleanup-cl: #0f0;
+        --code-highlight-background: #414559;
+        --color-scrollbar-hover: #51576d;
+        --color-scrollbar: #414559;
+        --color-scrollbar-thumb-active: #838ba7;
+        --color-scrollbar-thumb-hover: #737994;
+        --color-scrollbar-thumb: #626880;
+        --form-field-underline: #b5bfe2;
+        --form-outline: #b5bfe2;
+        --form-underline: #b5bfe2;
+        --bg-disabled: #51576d;
+        --highlighted-tab: #414559;
+        --icon-secondary: #c6d0f5;
+        --icon-tertiary: #c6d0f5;
+        --information-box-error: #0f0;
+        --input-field-bg: #0f0;
+        --primary-default: color-mix(in srgb, #8caaee 75%, #c6d0f5);
+        --primary-transparent-54: #949cbb;
+        --slider-off: #414559;
+        --search-result-bar-button: #0f0;
+        --selected-transparent-50: #232634;
+        --surface-default: #303446;
+        --tab-label: #c6d0f5;
+        --tab-link: #8caaee
+    }
+
+    /***********************************************************************
+     * Overrides for bad CSS vars used in Code Search by the Chromium devs *
+     **********************************************************************/
+    .mat-tab-group.mat-primary .mat-tab-label.cdk-keyboard-focused.mat-tab-disabled, .mat-tab-group.mat-primary .mat-tab-label.cdk-program-focused.mat-tab-disabled, .mat-tab-group.mat-primary .mat-tab-link.cdk-keyboard-focused.mat-tab-disabled, .mat-tab-group.mat-primary .mat-tab-link.cdk-program-focused.mat-tab-disabled, .mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-keyboard-focused.mat-tab-disabled, .mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-program-focused.mat-tab-disabled, .mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-keyboard-focused.mat-tab-disabled, .mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-program-focused.mat-tab-disabled {
+        background-color: var(--bg-disabled);
+    }
+}
