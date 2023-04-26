@@ -1,0 +1,387 @@
+/* ==UserStyle==
+@name           Infinite Campus Catppuccin (Frappe)
+@namespace      https://github.com/r58Playz/userstyles
+@supportURL     https://github.com/r58Playz/userstyles/issues
+@version        1.1.0
+@description    The Catppuccin theme for Infinite Campus.
+@author         r58Playz
+@var select accent-color "Accent color to use (such as in the top bar)" {
+    "Rosewater": "#f2d5cf",
+    "Flamingo": "#eebebe",
+    "Pink": "#f4b8e4",
+    "Mauve": "#ca9ee6",
+    "Red": "#e78284",
+    "Maroon": "#ea999c",
+    "Peach": "#ef9f76",
+    "Yellow": "#e5c890",
+    "Green": "#a6d189",
+    "Teal": "#81c8be",
+    "Sky": "#99d1db",
+    "Sapphire": "#85c1dc",
+    "Blue": "#8caaee",
+    "Lavender": "#babbf1"
+}
+==/UserStyle== */
+
+@-moz-document regexp(".*infinitecampus\.org.*") {
+    .login-card {
+        background-color: #292c3c !important;
+    }
+
+    .login-content {
+        background-color: #292c3c !important;
+    }
+
+    html {
+        background-color: #303446 !important;
+    }
+
+    h1, label {
+        color: #c6d0f5 !important;
+    }
+
+    a {
+        color: #8caaee !important;
+    }
+
+    html.login .login-card .login-form input[type=submit] {
+        background-color: #8caaee !important;
+        color: #303446 !important;
+        border: none;
+    }
+
+    html.login .login-card .login-form input[type=submit]:hover {
+        background-color: color-mix(in srgb, #8caaee, #303446) !important;
+    }
+
+    .samlLogin {
+        background-color: #51576d;
+        color: #c6d0f5;
+        border: none;
+    }
+
+    .samlLogin:hover {
+        background-color: #414559;
+    }
+
+    .line-separator {
+        color: #c6d0f5;
+        border-bottom: 1px solid #c6d0f5;
+    }
+
+    .line-separator > span {
+        background-color: #292c3c;
+    }
+
+    html.login .login-footer p {
+        color: #c6d0f5;
+    }
+
+    html.login .login-footer .hiddenAppServerName {
+        color: #a6d189;
+    }
+
+    input, #username, #password {
+        background-color: #414559 !important;
+        color: #c6d0f5 !important;
+        border: none;
+    }
+
+    .card__header, .card, div[_ngcontent-nuv-c801], .selcat-schedule-periodRow, button, .table__caption, div[_ngcontent-nuv-c803], .selcat-im-row, .p-4, .user-dropdown, .user-dropdown__item, .notifications-dropdown, .notification, .notifications-dropdown__header, .toolbar, .grades__card, .grades__card-header, .grades__row, .table__row--grades-border-override, .collapsible-card__content, th[_ngcontent-nuv-c744], tr, .message-center__tabstrip li, .k-tabstrip-items, .student-card__card .mt-4, [_ngcontent-wac-c803], .vertical-nav__item, hr, .table__header-cell {
+        border-color: #737994 !important;
+    }
+
+    .card__header {
+        background-color: #232634;
+        color: #c6d0f5;
+    }
+
+    .card {
+        border-color: #737994;
+        background-color: #292c3c;
+        color: #c6d0f5;
+    }
+
+    .text-secondary {
+        color: #b5bfe2;
+    }
+
+    .color__text-secondary {
+        color: #b5bfe2;
+    }
+
+    .toolbar, .sidebar {
+        background-color: #292c3c !important;
+        color: #c6d0f5;
+    }
+
+    .k-button-solid-base.k-hover, .k-button-solid-base:hover {
+        background-color: #292c3c !important;
+    }
+
+    .bg-white {
+        background-color: #292c3c !important;
+    }
+
+    .sub-header-text {
+        color: #b5bfe2;
+    }
+
+    .label--info {
+        color: #8caaee;
+        border-color: #8caaee;
+    }
+
+    ul.portal__link-list li:hover {
+        background-color: #303446;
+    }
+
+    .button {
+        background-color: #292c3c;
+        color: #b5bfe2;
+    }
+
+    .button:hover {
+        background-color: #232634;
+    }
+
+    .side-panel__header {
+        background-color: #232634;
+        color: #c6d0f5;
+    }
+
+    .side-panel__content {
+        background-color: #292c3c;
+    }
+
+    .side-panel__footer {
+        background-color: #292c3c;
+    }
+
+    span, .collapsible-card__icon, .school-name {
+        color: #c6d0f5 !important;
+    }
+
+    .icon-button--info:before {
+        color: #8caaee !important;
+    }
+
+    .k-item {
+        background-color: #414559;
+    }
+
+    .k-menu-group .k-item>.k-link:hover {
+        background-color: #51576d;
+    }
+
+    .user-dropdown {
+        background-color: #414559;
+        color: #c6d0f5;
+    }
+
+    .user-dropdown::before {
+        color: #414559 !important;
+    }
+
+    .user-dropdown__item:hover {
+        background-color: #51576d !important;
+    }
+
+    .notifications-dropdown__header {
+        background-color: #303446 !important;
+    }
+
+    .notifications-dropdown {
+        background-color: #414559;
+    }
+
+    .notification:hover {
+        background-color: #51576d !important;
+    }
+
+    .loading-container {
+        background-color: #303446;
+    }
+
+    .header, .sidebar__header {
+        background-color: var(--accent-color) !important;
+    }
+
+    .notifications-toggle__icon, .fa-user, .fa-bars {
+        color: color-mix(in srgb, var(--accent-color), #303446);
+    }
+
+    .ng-tns-c185-1 i {
+        background-color: transparent;
+    }
+
+    .ng-tns-c185-1 {
+        background-color: #414559;
+    }
+
+    .tool--active, .tool:hover {
+        background-color: #51576d !important;
+        border-left-color: var(--accent-color) !important;
+    }
+
+    kendo-buttongroup[aria-label="Calendar display type"] > button {
+        background-color: #292c3c !important;
+    }
+
+    kendo-buttongroup[aria-label="Calendar display type"] > .k-selected {
+        background-color: #232634 !important;
+    }
+
+    .term-picker__button-container > kendo-buttongroup > button {
+        background-color: #292c3c !important;
+        color: #c6d0f5;
+    }
+
+    .term-picker__button-container > kendo-buttongroup > .k-selected {
+        background-color: #232634 !important;
+        color: #c6d0f5;
+    }
+
+    .k-calendar, .k-calendar-view > .k-calendar-content, .k-calendar-view:after {
+        background-color: #303446 !important; /* fuck off #fff color */
+        box-shadow: none !important;
+    }
+
+    .k-calendar-navigation, .k-calendar-navigation:before, .k-calendar-navigation:after, .k-calendar-header, .k-calendar-header > span {
+        background-color: #292c3c !important;
+        box-shadow: none;
+        color: #c6d0f5;
+    }
+
+    .k-calendar-th, .k-calendar-caption {
+        color: #c6d0f5 !important;
+    }
+
+    .calendar__dot {
+        background-color: #c6d0f5 !important;
+    }
+
+    .calendar--non-instructional {
+        background-color: #414559 !important;
+    }
+
+    .k-nav-today {
+        color: #8caaee !important;
+    }
+
+    .k-calendar-navigation-highlight {
+        background-color: #232634 !important;
+    }
+
+    .calendar--active {
+        background-color: color-mix(in srgb, #8caaee, #303446) !important;
+    }
+
+    .grades__card-header, .table__caption {
+        background-color: #232634 !important;
+    }
+
+    .grades__card {
+        background-color: #292c3c !important;
+    }
+
+    th[_ngcontent-nuv-c744] {
+        background-color: #292c3c !important;
+    }
+
+    kendo-dropdownlist[name="responsiveSession"] {
+        background-color: #232634 !important;
+    }
+
+    .k-list-ul {
+        background-color: #414559 !important;
+    }
+
+    .k-list-item.k-selected, .k-selected.k-list-optionlabel {
+        background-color: #51576d !important;
+    }
+
+    .k-list-item:hover {
+        background-color: #51576d !important;
+    }
+
+    .k-grid th.k-header {
+        background-color: #232634 !important;
+        color: #c6d0f5;
+    }
+
+    .k-grid tr {
+        background-color: #292c3c;
+        color: #c6d0f5;
+    }
+
+    .k-grid tr:hover {
+        background-color: #414559 !important;
+    }
+
+    .k-grid tr.k-alt {
+        background-color: #303446;
+    }
+
+    .k-grid tr.k-state-disabled {
+        background-color: #626880;
+        opacity: 1;
+    }
+
+    .k-grid tr.k-state-selected >td {
+        background-color: color-mix(in srgb, #8caaee, #303446) !important;
+    }
+
+    .alert {
+        border-color: #8caaee;
+        background-color: #c6d0f5;
+    }
+
+    kendo-dropdownlist[name="yearList"] {
+        background-color: #232634 !important;
+    }
+
+    .divider__header {
+        background-color: #232634;
+    }
+
+    .divider__header:hover {
+        background-color: #292c3c;
+    }
+
+    .action-bar {
+        background-color: #292c3c;
+    }
+
+    .divider__content:hover {
+        background-color: #414559;
+    }
+
+    .k-tabstrip>.k-content {
+        background-color: #292c3c !important;
+    }
+
+    .message-center__tabstrip .k-item {
+        background-color: #303446;
+    }
+
+    .message-center__tabstrip .k-state-active {
+        background-color: #232634 !important;
+    }
+
+    .vertical-nav__item:hover {
+        background-color: #232634;
+    }
+
+    [_ngcontent-wac-c697] {
+        background-color: #292c3c;
+    }
+
+    .table__header-cell {
+        background-color: #232634;
+    }
+
+    kendo-dropdownlist[name="language"] {
+        background-color: #232634 !important;
+    }
+}
