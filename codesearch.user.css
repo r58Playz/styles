@@ -8,7 +8,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("source.chromium.org") {
-    .dark-mode {
+    body.dark-mode {
         --app-bar: #292c3c;
         --background: #303446;
         --callgraph-aggregation-background: #00f;
