@@ -1,0 +1,72 @@
+{
+    "name": "Catppuccin Macchiato",
+    "version": 2,
+    "color": {
+        "custom": {
+            "primary": "#363a4f",
+            "hover": "#494d64",
+            "background": "#494d64",
+            "border": "#363a4f",
+            "link": "#c6a0f6"
+        },
+        "modern": {
+            "dark": true,
+            "interface": {
+                "primary": "#24273a",
+                "accent": "#1e2030",
+                "secondary": "#1e2030",
+                "input": "#363a4f",
+                "border": "#6e738d",
+                "highlight": "rgba(198, 160, 246, 0.2)",
+                "active": "rgba(198, 160, 246, 0.1)",
+                "grades": "#c6a0f6",
+                "error": "#935c6d"
+            },
+            "calendar": [
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f",
+                "#363a4f"
+            ],
+            "text": {
+                "primary": "#c6d0f5",
+                "muted": "#a5adce",
+                "contrast": "#c6d0f5"
+            },
+            "options": {
+                "borderRadius": 5,
+                "borderSize": 1,
+                "padding": 10
+            }
+        }
+    },
+    "logo": {
+        "preset": "schoology_plus"
+    }
+}
