@@ -1,0 +1,72 @@
+{
+    "name": "Catppuccin Latte",
+    "version": 2,
+    "color": {
+        "custom": {
+            "primary": "#6c6f85",
+            "hover": "#5c5f77",
+            "background": "#6c6f85",
+            "border": "#8c8fa1",
+            "link": "#8839ef"
+        },
+        "modern": {
+            "dark": false,
+            "interface": {
+                "primary": "#eff1f5",
+                "accent": "#e6e9ef",
+                "secondary": "#e6e9ef",
+                "input": "#ccd0da",
+                "border": "#9ca0b0",
+                "highlight": "rgba(136, 57, 239, 0.2)",
+                "active": "rgba(136, 57, 239, 0.1)",
+                "grades": "#8839ef",
+                "error": "#d20f39"
+            },
+            "calendar": [
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef",
+                "#8839ef"
+            ],
+            "text": {
+                "primary": "#4c4f69",
+                "muted": "#6c6f85",
+                "contrast": "#eff1f5"
+            },
+            "options": {
+                "borderRadius": 5,
+                "borderSize": 1,
+                "padding": 10
+            }
+        }
+    },
+    "logo": {
+        "preset": "schoology_plus"
+    }
+}
