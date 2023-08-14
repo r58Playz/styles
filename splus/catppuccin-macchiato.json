@@ -55,9 +55,9 @@
                 "#363a4f"
             ],
             "text": {
-                "primary": "#c6d0f5",
-                "muted": "#a5adce",
-                "contrast": "#c6d0f5"
+                "primary": "#cad3f5",
+                "muted": "#a5adcb",
+                "contrast": "#cad3f5"
             },
             "options": {
                 "borderRadius": 5,
