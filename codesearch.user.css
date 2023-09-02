@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Chromium Code Search Catppuccin
 @namespace github.com/r58Playz/styles/chromium-code-search
-@version 2.0.0
+@version 2.1.0
 @description Soothing pastel theme for Chromium Code Search
 @author r58Playz
 
@@ -284,6 +284,35 @@
     }
     .CodeMirror-linenumber {text-shadow: none}
     .mat-tooltip {color: @text}
+    
+    .branding {
+      svg {
+        linearGradient#a {
+          stop[offset="0%"] {
+            stop-color: @surface1;
+            stop-opacity: 0.0;
+          }
+          stop[offset="100%"] {
+            stop-color: @accent-color;
+            stop-opacity: 1.0;
+          }
+        }
+        linearGradient#b {
+          stop[offset="0%"] {
+            stop-color: @accent-color;
+            stop-opacity: 1.0;
+          }
+          stop[offset="100%"] {
+            stop-color: @surface1;
+            stop-opacity: 0.0;
+          }
+        }
+        path:nth-child(3) {fill: @accent-color}
+        path:nth-child(4) {fill: @overlay0    }
+        path:nth-child(5) {fill: @accent-color}
+        path:nth-child(6) {fill: @accent-color}
+      }
+    }
   }
   body, body.dark-mode {
      #catppuccin(@flavor, @accentColor);
