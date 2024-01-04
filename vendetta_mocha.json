@@ -8,7 +8,7 @@
     ],
     "semanticColors": {
       "BACKGROUND_ACCENT": [
-      "#f38ba8"
+      "#cba6f7"
       ],
       "BACKGROUND_MENTIONED": [
       "#313244"
@@ -94,7 +94,7 @@
       "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
       "#11111b"
       ],
- "REDESIGN_CHAT_INPUT_BACKGROUND": [
+      "REDESIGN_CHAT_INPUT_BACKGROUND": [
       "#11111b"
       ],
       "CARD_PRIMARY_BG": [
@@ -147,7 +147,7 @@
       "PRIMARY_500": "#cdd6f4",
       "BRAND_560": "#6c7086",
       "PRIMARY_600": "#1e1e2e",
-      "PRIMARY_645": "45475a",
+      "PRIMARY_645": "#45475a",
       "PRIMARY_630": "#1e1e2e",
       "PRIMARY_660": "#11111b",
       "PRIMARY_700": "#11111b",
