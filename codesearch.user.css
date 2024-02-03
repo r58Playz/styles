@@ -148,7 +148,7 @@
     --code-added: @green;
     --code-deleted: @red;
     --code-modified: @blue;
-    --emphasized-border: @text;
+    --emphasized-border: @overlay2;
     --history-chip-border: @overlay2;
     --panel-divider-hover: @overlay1;
     --panel-divider: @overlay0;
@@ -175,6 +175,7 @@
     --tab-label: @text;
     --tab-link: @text;
     --tooltip-bg: @surface0;
+    --mat-icon-color: @accent-color;
     
     .mat-tab-label.mat-tab-disabled {
       color: @subtext0 !important;
@@ -312,6 +313,14 @@
         path:nth-child(5) {fill: @accent-color}
         path:nth-child(6) {fill: @accent-color}
       }
+    }
+    
+    .repository-link, .project-card .name {
+      color: @accent-color !important;
+    }
+    
+    ::selection {
+      background-color: fade(@accent-color, 25%)
     }
   }
   body, body.dark-mode {
