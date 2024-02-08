@@ -68,7 +68,7 @@
     --headings-border-bottom-color: @surface2;
     --border-color: @surface2;
     --button-background-color: @surface0;
-    --right-side-color: @surface0;
+    --right-side-color: @subtext0;
     --code-attribute-color: @surface0;
     --toggles-color: @overlay2;
     --toggle-filter: invert(100%);
