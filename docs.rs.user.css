@@ -69,7 +69,7 @@
     --border-color: @surface2;
     --button-background-color: @surface0;
     --right-side-color: @subtext0;
-    --code-attribute-color: @surface0;
+    --code-attribute-color: @subtext0;
     --toggles-color: @overlay2;
     --toggle-filter: invert(100%);
     --mobile-sidebar-menu-filter: invert(100%);
