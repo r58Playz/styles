@@ -88,7 +88,7 @@
     "diffEditor.diagonalFill": "#585b7099",
     "diffEditorOverview.insertedForeground": "#a6e3a1cc",
     "diffEditorOverview.removedForeground": "#f38ba8cc",
-    "editor.background": "#1e1e2e",
+    "editor.background": "#181825",
     "editor.findMatchBackground": "#f38ba84c",
     "editor.findMatchBorder": "#00000000",
     "editor.findMatchHighlightBackground": "#89dceb4c",
