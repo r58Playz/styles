@@ -13,10 +13,4 @@ The default accent color is Mauve. To change the accent color replace "Link Colo
 - [Install Docs.rs Catppuccin](https://github.com/r58Playz/styles/raw/main/docs.rs.user.css)
 
 ### [Shiki Codeblocks](https://github.com/Vendicated/Vencord/tree/main/src/plugins/shikiCodeblocks.desktop) VSCode styles
-**THESE WERE NOT MADE BY ME, ALL CREDIT GOES TO THE CATPPUCCIN VSCODE MAINTAINERS <3**
-
-These are from version 3.3.0 of the VSCode extension.
-- [Catppuccin Latte](./shiki/latte.json)
-- [Catppuccin Frappe](./shiki/frappe.json)
-- [Catppuccin Macchiato](./shiki/macchiato.json)
-- [Catppuccin Mocha](./shiki/mocha.json)
+Use `https://unpkg.com/@catppuccin/vscode/themes/<flavor>.json`
